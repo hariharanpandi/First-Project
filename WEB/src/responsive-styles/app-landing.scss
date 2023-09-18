@@ -1,0 +1,101 @@
+/* _media-queries.scss */
+@media (max-width: 480px) {
+  .app-landing {
+    &-info {
+      &-name {
+    &-user {
+      flex-direction: column !important;
+      &-date {
+        margin-left: -0.2rem !important;
+      }
+
+    }
+  }
+  }
+  }
+}
+
+@media (max-width: 768px) {
+    .app-landing {
+      flex-direction: column;
+          align-items: flex-start;
+          align-content: flex-start;
+          align-items: flex-start;
+          height: auto !important;
+          margin: 1rem !important;
+          padding: 1rem !important;
+  
+      &-info {
+         display: inline !important;
+
+        &-name {
+          font-size: 1.2rem;
+          margin-top: 1rem;
+  
+          &-user {
+            margin-top: 5% !important;
+            font-size: 0.7rem;
+            &-update {
+               font-size: 0.7rem !important;
+               display: flex;
+               p{
+                font-size: 0.75rem !important;
+                margin-right: 0.3rem;
+              }
+            }
+            &-count {
+              color: #fff;
+              font-size: 0.75rem !important;
+            }
+          }
+        }
+  
+        &-appimg {
+          width: 3rem;
+          height: 3rem;
+        }
+      }
+      &-desc {
+        font-size: 0.8rem;
+      }
+
+    }
+    .canvas-button-create{
+           display: none !important;
+    }
+  .position-app-icon{
+    top: -0.9rem !important;
+    left: -1.3rem !important;
+    display: flex;
+    height: 1.5rem;
+    width: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    background: #f46662;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+  }
+  .topBar-heading {
+    gap: 0rem !important;
+  }
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .app-landing {
+      padding: 1.5rem;
+  
+      &-info {
+        padding: 1rem;
+      }
+    }
+  }
+  
+
+  

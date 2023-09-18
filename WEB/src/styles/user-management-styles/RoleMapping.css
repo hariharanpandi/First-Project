@@ -1,0 +1,167 @@
+.p-treetable>.p-treetable-wrapper {
+    border-radius: 8px;
+  }
+  
+  .p-treetable-toggler-icon{
+      background-image: url('../../assets/images/TreeRightArrow.png');
+      fill: transparent;
+      background-repeat: no-repeat;
+      
+    }
+  
+  
+  
+  /* Expander icon hover border non */
+  .p-icon.p-treetable-toggler-icon > path{
+      display: none;
+  }
+  .p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler:enabled:hover{
+      background: none !important;
+      border: none !important;
+  }
+  .p-link:focus{
+      box-shadow: none !important;
+  }
+  
+  /* For Folder icons alignment */
+  .project-name{
+    display: flex;
+    align-items: center;
+  }
+  .folder-icons-alignment {
+    display: flex;
+    align-items: center;
+  }
+  
+  .element.style{
+    display: flex;
+    align-items: center;
+  }
+  
+  /* //////////////////////////For Scroll-Bar Style//////////////////////////////////////////// */
+  ::-webkit-scrollbar {
+    width: 8px;
+    /* height: 80px; */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+    /* border-radius: 1000% ; */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4D5157;
+  }
+  
+  
+  /* /////
+  ///////////
+  //////////
+  \///////// */
+  /* ///////////////////////// */
+  /* prime react table design */
+  .p-treetable .p-treetable-thead > tr > th{
+    background: #202938 !important;
+    color: white !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    border: none !important;
+  }
+  .p-treetable .p-treetable-tbody > tr > td{
+    background: #161C23;
+    color: white;
+    border: none !important;
+    border-bottom: 1px solid #202938 !important;
+  }
+  .p-treetable .p-treetable-tbody > tr {
+    background: none !important;
+  }
+  .p-treetable table{
+    border: 1px solid #202938;;
+  }
+  .p-treetable table:focus-visible {
+    outline: none !important;
+  }
+  :focus-visible{
+    outline: none !important;
+  }
+  .p-treetable .p-treetable-tbody > tr:focus-visible {
+    outline: none !important;
+  }
+  .p-treetable .p-treetable-tbody > tr > td:focus{
+    outline: none !important;
+  }
+  .p-treetable-tbody:focus{
+       outline: none !important;
+  }
+  .p-treetable-tbody{
+    background: none !important;
+  }
+  
+  
+  
+  /* ////For checkbox design///// */
+  
+  .myCheckbox[type="checkbox"] {
+    /* Hide the default checkbox */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 2px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    width: 15px !important;
+    height: 15px !important;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  /* Change the color of the custom checkbox */
+  .myCheckbox[type="checkbox"]:checked {
+    background-color: rgba(244, 102, 98, 1);
+    border: 2px solid rgba(244, 102, 98, 1);
+    width: 15px !important;
+    height: 15px !important;
+  }
+  
+  .myCheckbox[type="checkbox"]:checked::after {
+    content: url(../../assets/icons/UserTreeCheckTick.svg);
+    display: inline-block;
+    position: relative;
+    top: -10.5px;
+    left: 1.5px;
+    font-size: 20px;
+    color:rgba(255, 255, 255, 1) !important;
+  }
+  .myCheckbox[type="checkbox"]:disabled {
+    border-color: rgba(118, 118, 118, 0.3);
+  }
+  
+  
+  .user-modal-create-button{
+    color:rgba(13, 17, 22, 1);
+    background-color:rgba(244, 102, 98, 1);
+    border:none;
+    border-radius:8px;
+    Padding:8px 16px;
+    Width:178px;
+    Height:56px;
+    font-weight:700;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  
+  
+  
+  
+  

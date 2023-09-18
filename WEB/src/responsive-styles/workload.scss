@@ -1,0 +1,131 @@
+@media (max-width: 40rem) {
+    body {
+        .wo-wrapper {
+            flex-direction: column-reverse;
+
+            .wo-sidebar {
+                padding: 1rem;
+                width: 100%;
+
+                & .p-tabview {
+                    & .p-tabview-panels {
+                        min-height: auto !important;
+                        height: auto !important;
+                    }
+                }
+            }
+
+            .wo-wrapper-network-graph {
+                flex: auto;
+                margin: 1rem;
+
+                & div .vis-network > canvas{
+                    border: 3px solid #161c23;
+                }
+
+                .display-empty-canvas {
+                    .drag-drop {
+                        font-size: 1rem;
+                    }
+
+                    .discription {
+                        font-size: 0.875rem;
+                    }
+                }
+            }
+
+            div.vis-network div.vis-navigation div.vis-button.vis-zoomIn {
+                right: 0 !important;
+            }
+
+            div.vis-network div.vis-navigation div.vis-button.vis-zoomExtends {
+                right: 0 !important;
+            }
+
+            div.vis-network div.vis-navigation div.vis-button.vis-zoomOut {
+                right: 0 !important;
+            }
+
+            .wo-resources {
+                padding: 1rem;
+                width: 100%;
+
+                &-section {
+                    min-height: auto !important;
+                    height: auto !important;
+
+                    &-scroll {
+                        max-height: 67vh;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .workload-float-input {
+            width: 20.5rem;
+            text-wrap: nowrap;
+            overflow: auto;
+        }
+
+        .total-cost>div {
+            display: none;
+        }
+
+        .price-tag-topbar-contents .total-cost {
+            font-size: 0.75rem;
+        }
+
+        .price-tag-topbar {
+            top: 128px;
+        }
+
+        .price-tag-topbar-contents {
+            padding: 0.5rem 1rem;
+        }
+
+        .datepicker-input {
+            font-size: 0.75rem;
+            padding-left: 0;
+            padding-right: 0;
+            padding: 0.5rem 0.75rem;
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+        }
+
+        .price-tag-cal {
+            right: 1rem;
+            top: 4rem;
+            font-size: 0.625rem;
+        }
+        .rdrCalendarWrapper {
+            width: 90vw;
+            font-size: 0.625rem;
+        }
+
+        .rdrDay {
+            font-size: 0.625rem;
+        }
+
+        &:has(.workload-float-input) {
+            div.vis-network div.vis-navigation div.vis-button.vis-zoomIn {
+                right: 0 !important;
+                bottom: 10rem !important;
+            }
+
+            div.vis-network div.vis-navigation div.vis-button.vis-zoomExtends {
+                right: 0 !important;
+                bottom: 8rem !important;
+            }
+
+            div.vis-network div.vis-navigation div.vis-button.vis-zoomOut {
+                right: 0 !important;
+                bottom: 6rem !important;
+            }
+
+        }
+
+
+    }
+}

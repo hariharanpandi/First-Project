@@ -1,0 +1,13 @@
+.delete-dialog-content{
+    display:flex !important;
+    height:100% !important;
+    /* justify-content: center !important; */
+}
+.dialog-success-content{
+    display: flex !important;
+    justify-content: center !important;
+}
+.done-icon{
+    display: flex !important;
+    justify-content: center !important;
+}

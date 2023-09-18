@@ -1,0 +1,121 @@
+.cloud-application-heading {
+  font-family: Inter !important;
+  font-weight: 500 !important;
+  size: 8px !important;
+  line-height: 19.36px !important;
+  padding: 1.5rem 0 1rem 0 !important;
+}
+
+/* Grid Styles */
+.overal-applicatin-card {
+  gap: 1.5rem;
+  overflow: hidden;
+}
+
+/* New Application Card Styles */
+.cloud-application-list {
+  width: 100%;
+  max-width: 264px;
+  height: 84px;
+  gap: 10px;
+  background-color: #161c23;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+/* Mapped Cards Styles */
+.cloud-app-map-list {
+  width: 100%;
+  max-width: 264px;
+  height: 84px;
+  gap: 10px;
+  background-color: #161c23;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+/* Card Content Styles */
+.specific-application-card,
+.specific-mapd-application {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none !important;
+  color: #ffffff;
+  box-shadow: none !important;
+  cursor:pointer;
+}
+
+/* my icon Styles */
+.application-add-icon {
+  background: #20262d;
+  height: 52px;
+  width: 52px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: #ffffff;
+}
+
+/* my image Styles */
+.application-cloud-img {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.6rem;
+}
+
+/* Text Styles */
+.application-card-title {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 1.0rem;
+  line-height: 1.75rem;
+  align-items: center;
+  color: #ffffff;
+  word-break: break-all;
+}
+
+.total-application-account {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  align-items: center;
+  color: #b2b8bd;
+}
+.application-add-text {
+  color: #ffffff;
+  cursor:pointer;
+}
+/* Media Queries */
+@media (max-width: 600px) {
+  .overal-applicatin-card {
+    padding: 1rem;
+  }
+
+  .cloud-application-list,
+  .cloud-app-map-list {
+    max-width: none;
+  }
+}
+
+/* media qurry  */
+@media (max-width: 480px) {
+  .cloud-application-list,
+  .cloud-app-map-list {
+    height: 64px;
+  }
+
+  .application-card-title {
+    font-size: 1rem;
+  }
+
+  .total-application-account {
+    font-size: 0.625rem;
+  }
+}

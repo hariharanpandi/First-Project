@@ -1,0 +1,85 @@
+.-internal-autofill-selected {
+  background-color: black !important;
+}
+
+.landing-page-container .MuiInputBase-root {
+  border-radius: 8px;
+  max-width: 23.875rem;
+  width: 100%;
+  color: white;
+  padding: 1rem;
+  background-color: #20262d;
+  height: 3.375rem;
+}
+
+.password-block {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  left: 0.75rem;
+}
+
+/* .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+  color: #ffff !important;
+} */
+
+
+.link-text {
+
+  padding: 15px !important;
+  font-size: 11px !important;
+  font-weight: 300 !important;
+  font-family: Inter !important;
+}
+
+.forgot-text {
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  font-family: Inter !important;
+}
+
+
+.remember-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  right: 1.3rem;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.terms-block {
+  padding-top: 1.5rem !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  font-family: Inter !important;
+}
+/* .terms-service {
+  color: rgba(255, 255, 255, 0.74) !important;
+  font-weight: 400 !important;
+  font-family: Inter !important;
+  font-size: 13px !important;
+} */
+
+/* .MuiFormHelperText-root.Mui-error {
+  color: #cf6679 !important;
+  font-size: 12px !important;
+  margin: 0;
+} */
+
+/* .input.MuiInputBase-input.MuiInput-input {
+  background-color: rgb(207, 14, 14) !important;
+} */
+
+.snack-bar {
+  background: #202938 !important;
+  padding: 11px !important;
+  border-radius: 12px !important;
+  margin-left: 5.5% !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  font-family: Inter !important;
+  margin-top: 1% !important;
+}

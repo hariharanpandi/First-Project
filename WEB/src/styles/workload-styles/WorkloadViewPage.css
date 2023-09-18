@@ -1,0 +1,311 @@
+.workload-float-input-container {
+  position: absolute;
+  bottom: 0;
+}
+
+.workload-float-input {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #161c23;
+}
+
+.workload-float-input .input-1,
+.workload-float-input .input-2,
+.workload-float-input .input-disabled {
+  height: 44px;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;  
+  display: flex;
+  align-items: center;
+}
+
+.workload-float-input .input-2 {
+  height: 44px;
+  position: relative;
+  line-height: 140%; 
+}
+
+.workload-float-input .input-1-highlighted,
+.workload-float-input .input-2-highlighted {
+  height: 44px;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;  
+  display: flex;
+  align-items: center;
+}
+
+.workload-float-input .input-2-highlighted {
+  position: relative;
+  line-height: 140%; 
+}
+
+.workload-float-input .input-1:hover,
+.workload-float-input .input-2:hover{
+  height: 44px;
+  background-color: #20262D;
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+}
+.workload-float-input .input-1-highlighted,
+.workload-float-input .input-2-highlighted {
+  height: 44px;
+  background-color: #f46662;
+  color: #000 !important;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  line-height: 140%;
+}
+
+.workload-float-input .input-disabled {
+  color: #ffffffa1;
+  cursor:not-allowed;
+}
+
+.workload-float-input .input-1 span,
+.workload-float-input .input-1-highlighted span {
+  position: relative;
+  top: 1px;
+  margin-right: 6px;
+}
+
+.workload-float-input .input-2 span,
+.workload-float-input .input-2-highlighted span,
+.workload-float-input .input-disabled span {
+  position: relative;
+  top: 2px;
+  margin-right: 6px;
+}
+
+.workload-float-input-workload path,
+.workload-float-input-pricetag path {
+  fill: white;
+}
+
+.workload-float-input .input-1:hover .workload-float-input-workload path,
+.workload-float-input .input-2:hover .workload-float-input-pricetag path {
+  fill: #FFFFFF ;
+}
+.workload-float-input .input-1-highlighted .workload-float-input-workload path,
+.workload-float-input .input-2-highlighted .workload-float-input-pricetag path{
+  fill: black;
+}
+
+
+.workload-float-input-curaWhite path,
+.workload-float-input-security path,
+.workload-float-input-sre path {
+  fill: #ffffffa1;
+}
+
+.network-graph {
+  max-width: 100%;
+  max-height: 90vh;
+}
+
+.price-tag-topbar {
+  width: 100%;
+  background-color: #161c23;
+  color: #ffffff;
+  position: sticky;
+  top: 64px;
+  z-index: 115;
+  border-top: 1px solid #eeeeee27;
+}
+
+.price-tag-topbar-contents {
+  padding: 0.9375rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-tag-topbar-contents .total-cost {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+}
+
+.price-tag-topbar-contents .total-cost span {
+  position: relative;
+  top: 0.5px;
+  margin-left: 5px;
+}
+
+.p-datepicker table td > span.p-highlight,
+.p-datepicker table td.p-datepicker-today > span {
+  color: #f46662 !important;
+}
+
+@media (max-width: 1398px) {
+  .rs-anim-fade.rs-anim-in {
+    left: calc(50% - 125px) !important; /* Center the component horizontally */
+  }
+}
+
+.rdrDefinedRangesWrapper {
+  display: none !important;
+}
+
+.rdrMonthAndYearPickers select {
+  display: none !important;
+}
+
+.rdrDayPassive {
+  visibility: hidden !important;
+}
+
+.rdrMonthName {
+  margin-top: -50px !important;
+  position: relative !important;
+  width: 50% !important;
+  left: 35% !important;
+}
+
+.rdrNextPrevButton {
+  position: relative !important;
+  bottom: 7px !important;
+}
+
+.rdrCalendarWrapper {
+  background: #20262d !important;
+  color: #ffffff !important;
+  padding-bottom: 20px !important;
+  border-radius: 8px !important;
+}
+
+.rdrMonthName {
+  color: #ffffff !important;
+}
+
+.rdrWeekDay {
+  color: #ffffff !important;
+}
+
+.rdrDayNumber span {
+  color: #ffffff !important;
+}
+
+.rdrDayDisabled {
+  background-color: #20262d !important;
+  color: #ffffff30 !important;
+}
+
+.rdrStartEdge {
+  color: #000 !important;
+  background-color: #f46662 !important;
+}
+
+.rdrEndEdge {
+  color: #000 !important;
+  background-color: #f46662 !important;
+}
+
+.rdrDayDisabled .rdrDayNumber span {
+  color: #ffffff76 !important;
+}
+
+.datepicker-input {
+  background-color: #20262d;
+  border: none;
+  outline: none;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.datepicker-input .calendarIcon {
+  position: relative;
+  top: 3px;
+}
+
+.datepicker-input .dateVal {
+  margin-left: 10px;
+}
+
+.rdrNextPrevButton {
+  background: #383e45 !important;
+}
+
+.rdrPprevButton i {
+  border-width: 4px 6px 4px 4px;
+  border-color: transparent rgb(255 255 255) transparent transparent !important;
+  transform: translate(-3px, 0px);
+}
+
+.rdrNextButton i {
+  border-width: 4px 6px 4px 4px;
+  border-color: transparent #ffffff00 transparent rgb(255 255 255) !important;
+  transform: translate(3px, 0px) !important;
+}
+
+
+
+.btn-datepicker {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  position: relative;
+  bottom: 2rem;
+  font-size: 14px;
+}
+.ok-btn-datepicker span {
+  height: 34px;
+  width: 72px;
+  color: #000000 !important;
+  background-color: #f46662;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.clear-btn-datepicker span {
+  height: 34px;
+  width: 72px;
+  color: #ffffff !important;
+  background-color: #f4676200;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.clear-btn-datepicker span:hover {
+  background-color: #7e7e7e1c;
+}
+
+.ok-btn-datepicker-disabled span {
+  color: #000000 !important;
+  background-color: #f46762b5;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  font-weight: 600;
+  cursor: not-allowed;
+}

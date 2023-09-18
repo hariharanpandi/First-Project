@@ -1,0 +1,610 @@
+.project-title {
+  display: flex !important;
+  justify-content: space-between !important;
+  padding: 0.8rem 1rem 0.5rem;
+  align-items: center;
+  height: 2.674rem;
+}
+.plus-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: Inter !important;
+  font-weight: 300 !important;
+}
+.span-plus-icon{
+  border-radius: 4px !important;
+  height: 22px !important;
+  width: 22px !important; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.span-plus-icon:hover{
+     background-color: #31363E !important;
+     border-radius: 4px !important;
+     height: 22px !important;
+     width: 22px !important; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.pluseicon-inline{
+  height: 22px;
+  width: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.pluseicon-inline:hover{
+  background-color: #31363E !important;
+}
+.threedot-icon-inline{
+  height: 22px;
+  width: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.css-1flhjdq {
+  max-width: 26.875rem;
+  width: 26.875rem !important;
+} 
+
+.threedot-icon-inline:hover{
+  background-color: #31363E !important;
+}
+.threedot-icon-inline-top{
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.threedot-icon-inline-top:hover{
+  background-color: #31363E !important;
+}
+
+
+.project-collapse {
+  display: flex !important;
+  align-items: center !important;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.project_app {
+  /* display:flex;
+  flex-direction: row; */
+  display: flex;
+  flex-direction: column;
+}
+.css-1ge1vwg-MuiList-root {
+  padding-top: 0 !important;
+}
+.delete-button {
+  background-color: #31363e !important;
+  color: #ffffff !important;
+  padding: 2% !important;
+  border-radius: 4px !important ;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: Inter !important;
+  width: 40% !important;
+}
+.delete-cancel {
+  background-color: #f46662 !important;
+  color: #000000 !important;
+  padding: 2% !important;
+  border-radius: 4px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: Inter !important;
+  width: 40% !important;
+}
+
+/* .project-structure{
+    display: flex !important;
+    justify-content: space-between !important;
+} */
+.project-view {
+  display: flex !important;
+  justify-content: space-between !important;
+  cursor: pointer !important;
+  align-items: center !important;
+  height: 36px !important;
+}
+.create-project-poppover > .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  background-color: rgb(32, 38, 45) !important;
+  border-radius: 9px !important;
+  box-shadow: none !important;
+  position: absolute;
+  left: 12rem !important;
+}
+.project-popover-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0px;
+  color: #fff;
+  width: 11.9375rem;
+}
+.project-popover-text {
+  display: flex !important;
+  gap: 0.5rem;
+  align-items: center !important;
+  padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+}
+.project-popover-text:hover {
+  background-color: #31363e;
+  cursor: pointer;
+  box-shadow: 0 0 0 100vmax #31363e;
+  clip-path: inset(0 -100vmax);
+}
+.project-popover-name {
+  font-family: Inter !important;
+  font-size: 14px !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.delete-project-name {
+  color: #f46662 !important;
+}
+
+/* Project Landingpage */
+
+.app-work-container {
+  display: flex;
+}
+
+.applicationDisplay-container {
+  padding: 0rem 1rem 1.5rem 1.5rem;
+}
+
+.app_list {
+  overflow: auto;
+  height: 241px;
+}
+
+/* .app_list::-webkit-scrollbar {
+  display: none;
+} */
+
+.applicationDisplay-item {
+  width: 100%;
+  padding: 0.6rem 1.2rem !important;
+  display: flex !important;
+  gap: 5%;
+  color: #ffffffde;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+.applicationDisplay img {
+  position: relative;
+  top: 5px;
+}
+
+.applicationDisplay-app_name {
+  position: relative;
+  top: 6px;
+  width: 90%;
+}
+.workloadDisplay-container {
+  flex: 1;
+  padding: 0rem 1.5rem 1.5rem 1rem;
+  overflow: hidden !important;
+  height: 19.063rem;
+  border-radius: 8px;
+}
+
+.threedot-appDisplay span svg {
+ position: relative;
+ bottom: 2px;
+ margin-left: 4px;
+ margin-right: 4px; 
+}
+
+.threedot-appDisplay {
+  height: 30px;
+  width: 10%;
+  position: relative;
+  top: 5px;
+  visibility: hidden;
+}
+
+.applicationDisplay-item:hover {
+  background-color: rgba(128, 128, 128, 0.166);
+  transition: 0.1s;
+}
+
+.applicationDisplay-item:hover .threedot-appDisplay {
+  visibility: visible;
+  transition: 0.1s;
+}
+
+.threedot-appDisplay span {
+  padding-bottom: 5px;
+  transition: 0.1s;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.threedot-appDisplay span:hover {
+  background-color: rgba(92, 92, 92, 0.516);
+  border-radius: 3px;
+  transition: 0.1s;
+}
+
+/* TopBar */
+
+.topBar {
+  height: 64px;
+  width: 100%;
+  background-color: #161c23;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 115;
+}
+
+.topBar-closed .eELWHF {
+  padding-left: 60px !important;
+}
+
+.topBar-contents {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.topBar-heading {
+  width: 100%;
+  position: relative;
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #B2B8BD;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.topBar-heading-backslash {
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+  top: 3px;
+}
+
+.topBar-menuspan {
+  width: 5%;
+  margin-left: 20px;
+  position: relative;
+  top: 10px;
+  font-size: 25px;
+  float: right;
+}
+
+/* Landing Display */
+
+.landingDisplay {
+  padding: 1.5rem;
+  margin: 1.5rem;
+  height: 36.875rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 48.95%),
+    url(/src/assets/gif/project-bg-gif.gif),
+    lightgray -30.647px 0px / 130.636% 100% no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.landingDisplay-bg-linear {
+  position: absolute;
+  bottom: 3.5rem;
+  left: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.landingDisplay-disc {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.74);
+  width: 25rem;
+  word-break: break-all;
+}
+
+.landingDisplay-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  gap: 8px;
+  margin-top: 1.375rem;
+  flex-wrap: nowrap;
+  height: 34px;
+  background: #20262d;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.plus-icon-new-app {
+  margin-top: 3px;
+}
+
+.new-application {
+  display: flex;
+  gap: 11px;
+}
+.landingDisplay-heading {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 25rem;
+  word-break: break-all;
+}
+
+.landingDisplay-settings-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  gap: 8px;
+  margin-top: 1.375rem;
+  flex-wrap: nowrap;
+  height: 34px;
+  background: #20262d;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Application Display */
+
+.applicationDisplay {
+  width: 20.625rem;
+  height: 19.063rem;
+  background: #161c23;
+  border-radius: 8px;
+  overflow: auto;
+ 
+}
+
+
+.applicationDisplay-header {
+  display: flex;
+  font-size: 0.875rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  font-weight: 600;
+}
+
+.applicationDisplay-new {
+  color: #f46662;
+  cursor: pointer;
+}
+
+.applicationDisplay-new span {
+  margin-top: 1px;
+  margin-right: 5px;
+}
+
+.applicationDisplay-emptyBox {
+  width: 100%;
+  margin-top: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.applicationDisplay-emptyBox-text {
+  width: 100%;
+  color: #ffffff75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  position: relative;
+  bottom: 18px;
+}
+
+/* Workload Display */
+
+.workloadDisplay {
+  height: 19.063rem;
+  background: #161c23;
+  border-radius: 8px;
+}
+.workloadDisplay-2{
+  height: 19.063rem;
+  background: #161c23;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.workloadDisplay-header {
+  display: flex;
+}
+
+.workloadDisplay-heading {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 1.5rem;
+}
+
+.workloadDisplay-new {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #f46662;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.workloadDisplay-new span {
+  margin-top: 1px;
+  margin-right: 5px;
+}
+
+.workloadDisplay-emptyBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.workloadDisplay-emptyBox-text {
+  width: 100%;
+  color: #ffffff75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  position: relative;
+  bottom: 18px;
+}
+
+.width-spec {
+  width: 50%;
+  text-align: center;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent !important;
+}
+.project-view:hover {
+  background-color: #20262D !important;
+}
+
+.icon-folder-text {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.project-folder-icon {
+  margin-top: 6px !important;
+}
+
+.icon-folder-text-inline {
+  margin-right: 8px !important;
+  margin-left: 2;
+}
+.threedot-pluseicon {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 0.5rem;
+}
+.threedot-icon-inline {
+  margin-right: 15px !important;
+  margin-bottom: 0 !important;
+}
+.css-1p823my-MuiListItem-root{
+  height: 2.25rem !important;
+  padding: 0.4375rem 0.77rem 0.3125rem 1rem !important;
+}
+/*project Delete Modal */
+.dialog-action {
+  flex: 0 0 auto !important;
+  display: flex !important;
+  padding: 16px 5px !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+  /* background-color:#31363E !important; */
+  /* background-color: #20262d !important ; */
+  color: #ffffff !important;
+  background-color: #161c23 !important;
+  font-family: Inter !important;
+}
+.delete-dialog-content {
+  font-family: Inter !important;
+  font-size: 13px !important;
+  font-weight: 200 !important;
+  color: #ffffff75 !important;
+}
+.role-setting {
+  display: flex !important;
+  padding: 20% !important;
+}
+.top-bar-container {
+  transition: all 0.5s ease-out;
+}
+.application-list {
+  padding-top: 0.3rem;
+  color: #B2B8BD;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.apps-name {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 0.8rem !important;
+  width: 9rem!important;
+}
+
+.app-view {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 0.3rem 0rem 0.3rem 3.5rem;
+}
+
+.app-view:hover {
+  background-color: #20262D !important;
+  filter: opacity(1) !important;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.app-img {
+  border-radius: 5px !important;
+}

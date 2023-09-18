@@ -1,0 +1,105 @@
+.user-form{
+    width: 70%;
+}
+
+.edit-user-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .edit-user-form > div {
+    display: flex;
+    flex-direction: column; 
+  }
+  .edite-user-name-email{
+    padding-bottom: 1.5rem !important;
+  }
+  
+  .edit-user-form > div > label {
+    padding-bottom: 0.5rem;
+  }
+
+  .edite-user-name-email .MuiInputBase-input{
+    background-color: #20262D !important;
+    color: #ffffff !important;
+    font-size: 100% !important;
+    font-family: Inter !important;
+    letter-spacing: 0.12px !important;
+    font-weight: 300 !important; 
+    border-radius: 8px !important;
+  }
+  .edite-user-name-email .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+     width: 23.875rem!important;
+  } 
+  .my-switch-class {
+      width: 200% !important;
+  }
+  .edit-user-button{
+    background: #F46662 !important;
+    margin: 0% 6% 6% 0% !important;
+    padding: 3px !important;
+    border-radius: 8px;
+    width: 6% !important;
+    height: 35px;
+    align-items: center !important;
+    font-weight: 600 !important;
+    font-size: 100% !important;
+    color: #0D1116 !important;
+    text-transform: none !important;
+    border-radius: 4px !important;
+  }
+.edite-user-name-email > .css-1wc848c-MuiFormHelperText-root.Mui-error{
+  margin-left: 0%;
+}
+
+.edite-user-name-email .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
+  -webkit-text-fill-color: #B2B8BD !important;
+}
+
+@media (max-width: 600px) {
+  .edite-user-name-email{
+    width: 59% !important;
+  }
+  .edit-user-form > div {
+    margin-bottom: 2.3% !important;
+  }
+}
+
+
+.status-bar {
+  padding-bottom: 2.5rem;
+  display: inline-block !important;
+}
+  
+.disabled-state .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
+  opacity: 1 !important;
+  /* -webkit-text-fill-color: #FFFFFF !important; */ 
+  -webkit-text-fill-color: #B2B8BD !important;
+
+}
+
+.css-jfdv4h-MuiStack-root>:not(style)~:not(style) {
+  color: #FFFFFF !important;
+}
+
+/* ** Mobile responsive ** */
+@media(max-width:480px){
+  .edite-user-name-email .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+     width: 130% !important;
+ } 
+ .edite-user-name-email .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  padding: 13.5px 14px !important;
+ }
+ /* Font */
+ .edite-user-name-email .MuiInputBase-input{
+  font-size: 80% !important;
+}
+.edit-user-form > div > label {
+  font-size: 80% !important;
+}
+.edit-user-button{
+  font-size: 80% !important;
+}
+}
+
+  

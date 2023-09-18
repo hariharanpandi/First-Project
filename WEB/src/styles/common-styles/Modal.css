@@ -1,0 +1,71 @@
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  border-radius: 15px !important;
+  background-color: #161C23 !important;
+  font-size: 12px !important;
+  font-family: Inter !important;
+  font-weight: 500 !important;
+  color: rgba(255, 255, 255, 0.74) !important;
+}
+
+.my-heading {
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.css-qfso29-MuiTypography-root-MuiDialogContentText-root {
+  font-size: 13px !important;
+  font-weight: 400 !important;
+}
+
+.my-heading>button {
+  color: #FFFFFF;
+}
+
+.DialogContent {
+  background: #0D1116;
+  color: rgba(255, 255, 255, 0.74);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.DialogContentText {
+  color: rgba(255, 255, 255, 0.74) !important;
+}
+
+.Terms-of-Service {
+  size: 18px !important;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px !important;
+}
+
+.terms-service-body {
+  padding: 0% 1% !important;
+  color: rgba(255, 255, 255, 0.74) !important;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4D5157;
+}

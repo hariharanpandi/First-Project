@@ -1,0 +1,11 @@
+.snack-box {
+  display: flex !important;
+  justify-content: space-around !important;
+  padding: 1px !important;
+}
+.snack-msg {
+  padding: 6px !important;
+}
+.snack-error {
+  padding: 6px !important;
+}

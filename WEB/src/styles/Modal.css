@@ -1,0 +1,59 @@
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+  border-radius: 15px !important;
+  background-color: #161C23 !important;
+}
+
+/* /////////////// */
+.my-heading{
+display: flex;
+justify-content: space-between;
+color: #FFFFFF;
+background-color: #161C23;
+
+}
+.my-heading > button {
+  color: #FFFFFF ;
+}
+.DialogContent{
+  background: #000000;
+}
+.DialogContentText{
+ color: rgba(255, 255, 255, 0.74) !important;
+ padding-top: 2% !important;
+}
+.Terms-of-Service{
+  size: 18px !important;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.terms-service-body{
+  padding: 0% 1% !important;
+}
+
+
+
+
+
+/* //////////////////////////For Scroll-Bar Style//////////////////////////////////////////// */
+::-webkit-scrollbar {
+  width: 4px;
+  /* height: 80px; */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+  /* border-radius: 1000% ; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4D5157;
+}

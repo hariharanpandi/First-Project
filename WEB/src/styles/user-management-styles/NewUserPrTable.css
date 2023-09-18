@@ -1,0 +1,68 @@
+
+
+.p-treetable-toggler-icon{
+    background-image: url('../../assets/images/TreeRightArrow.png');
+    fill: transparent;
+    background-repeat: no-repeat;
+    
+  }
+
+
+.p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler:focus{
+     /* transform: rotate(90deg);
+     transition: ease-in-out; */
+}
+
+/* Expander icon hover border non */
+.p-icon.p-treetable-toggler-icon > path{
+    display: none;
+}
+.p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler:enabled:hover{
+    background: none !important;
+    border: none !important;
+}
+.p-link:focus{
+    box-shadow: none !important;
+}
+
+/* For Folder icons alignment */
+.project-name{
+  display: flex;
+  align-items: center;
+}
+.folder-icons-alignment {
+  display: flex;
+  align-items: center;
+}
+
+.element.style{
+  display: flex;
+  align-items: center;
+}
+
+/* //////////////////////////For Scroll-Bar Style//////////////////////////////////////////// */
+::-webkit-scrollbar {
+  width: 8px;
+  /* height: 80px; */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+  /* border-radius: 1000% ; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4D5157;
+}
+
+
+
+

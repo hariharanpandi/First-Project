@@ -1,0 +1,211 @@
+
+.cloud-accound-summary {
+  font-family: Inter !important;
+  font-weight: 500 !important;
+  size: 8px !important;
+  line-height: 19.36px !important;
+}
+
+.overal-discovery-card {
+  gap: 1.5rem;
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+.ifo-creat-new{
+  display: none;
+}
+.specific-card {
+  height: 230px;
+  width: 210px;
+  border-radius: 8px !important;
+  background-color: #161c23 !important;
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative */
+}
+.specific-mapd-card {
+  /* height: auto; */
+  height: 230px;
+  width: 210px;
+  border-radius: 8px !important;
+  background-color: #161c23 !important;
+  color: #ffffff !important;
+
+}
+
+.summary-add-icon {
+  background: #20262d !important;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.maped-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-cloud-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.25rem;
+  background: #20262d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.7rem 0rem 0.9rem 0rem;
+}
+.summary-card-line {
+  margin-bottom: 0.6rem;
+}
+
+.summary-card-title {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 1.25rem;
+  align-items: center;
+}
+.cloud-count {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  align-items: center;
+}
+
+.cloud-account-text {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 0.75rem;
+  align-items: center;
+  color: #b2b8bd;
+  margin-bottom: 0.6rem;
+}
+
+/* Media Queries */
+
+ .overal-discovery-card > .css-1i2cmbk-MuiGrid-root{
+  max-width: 12.8375rem;
+  width: 12.8375rem;
+}
+
+@media screen and (max-width: 600px) {
+  .overal-discovery-card {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .summary-card-title,
+  .cloud-count {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .total-cloud-account {
+    font-size: 0.625rem;
+    line-height: 1rem;
+  }
+
+  .cloud-accound-summary {
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .overal-discovery-card {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    padding: 1rem;
+  }
+
+  .summary-card-title,
+  .cloud-count {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .total-cloud-account {
+    font-size: 0.625rem;
+    line-height: 1rem;
+  }
+
+  .cloud-accound-summary {
+    padding-left: 0.5rem;
+  }
+}
+
+/* section */
+.emty-cloud-accountces{
+  background-color: #161C23;
+  height: 556px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  flex-direction: column;
+}
+.nothing-onboard-it{
+   color: #fff;
+   font-family: Inter;
+   font-weight: 700;
+   font-size: 16px;
+}
+.Onbord-new-cloud-text{
+  color: #fff;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.add-new-cloud-button{
+    background-color: #F46662;
+    color: #161C23;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-top: 16px;
+    cursor: pointer;
+  }
+  .overal-onboard-textss{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       position: absolute;
+       bottom: 150px;
+  }
+
+.new-cloud-onbording {
+  width: 19rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* media Qury for mobile responsive */
+
+@media (max-width: 768px) {
+  .discovery-card-ifo {
+       display: none;
+  }
+  .ifo-creat-new{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    color: #F46662 !important;
+    font-weight: 600;
+    font-family: Inter;
+    font-size: 0.75rem;
+    cursor: pointer;
+  }
+}

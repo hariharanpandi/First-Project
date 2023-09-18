@@ -1,0 +1,22 @@
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+  color: white !important;
+}
+
+.backto-sign {
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.backArrow {
+  margin-right: 10px;
+}
+
+.backto-sign-block {
+  color: #FFF;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 2rem;
+}

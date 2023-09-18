@@ -1,0 +1,557 @@
+.css-1012bww-MuiChip-root{
+    color:none !important;
+}
+.css-w66kx-MuiChip-root{
+    color: white !important;
+    max-width: fit-content !important;
+    font-size: 0.875rem !important;
+}
+.css-pwngrv-MuiPaper-root-MuiCard-root{
+    background-color: #20262d !important;
+    
+}
+
+.stack-column{
+    /* background-color: #20262d !important; */
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    font-family: Inter !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border-right: 1px solid #161C23 !important;
+    padding: 20px !important;
+    /* width: 70% !important; */
+    /* width: 10.5rem !important; */
+    /* width: 12.5rem !important; */
+    /* cursor: pointer !important; */
+    background-color: #161C23 !important;
+    margin-right: 20px !important;
+    align-items: flex-start;
+}
+.typocast-style{
+    font-family: Inter !important;
+  font-weight: 500 !important;
+  font-size: 13px !important;
+  align-items: center !important;
+  cursor:pointer !important;
+}
+.change-remove-settings{
+    padding: 0.5rem 0.6875rem;
+    border-radius: 24px !important;
+    width: 100% !important;
+}
+.change-remove-settings:hover{
+    background: #20262D !important;
+}
+input[type="file"] {
+    opacity: 0;
+  z-index: -1;
+  position: absolute;
+  }
+/* .card-column{
+    width:964px !important;
+} */
+/* .setting-block{
+    background-color: #20262d !important;
+    font-weight: 500 !important;
+    border-radius: 8px !important;
+
+} */
+.css-19kzrtu{
+    padding-left: 0% !important;
+}
+.item-block{
+    margin-top: 1% !important;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+    text-transform: none !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    color: white !important;
+    text-transform: none !important;
+    font-family: Inter !important;
+    font-weight: 500;
+font-size: 14px;
+padding: 7px 16px !important;  
+min-height: 30px !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    background-color: #F46662 !important;
+    border-radius: 34px !important;
+    color:black !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-family: Inter !important;
+    display:flex !important;
+    min-height: 0% !important;
+    height: 30px;
+    padding: 8px 11px;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root:not(.Mui-selected):hover{
+    
+   background-color: #20262D;
+   border-radius: 2.125rem !important;
+}
+.tabs-block{
+    padding: 1.5rem;
+}
+.dialog-style{
+    background-color: #20262d !important ;
+    color: #B2B8BD !important;
+    font-weight: 400 !important;
+font-size: 16px !important;
+font-family: Inter !important;
+
+}
+.setting-block{
+    background-color: #161C23 !important;
+    margin-bottom: 2% !important;
+    padding:2% !important;
+    border-radius: 8px !important;
+}
+
+
+.dialog-box{
+    padding:3% !important;
+    min-width:100% !important;
+}
+.dialog-box-account{
+    display: flex !important;
+    border-radius: 5px !important;
+    font-family: Inter !important;
+    padding:3% !important;
+    min-width:100% !important;
+    position:absolute !important;
+    top:0 !important;
+    bottom:0 !important;
+    left:20 !important;
+    right:0 !important;
+    margin-left: 25% !important;
+    max-width: 75% !important;
+}
+
+
+.dialog-title{
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    background-color: #20262d !important ;
+    color: #FFFFFF !important;
+    font-family: Inter !important;
+}
+/* .dialog-action{
+    flex: 0 0 auto !important;
+    display: flex !important;
+    padding: 8px !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    background-color: #20262d !important ;
+    color: #FFFFFF !important;
+    font-family: Inter !important;
+} */
+
+.popover-content{
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+    background: #20262D;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.08);
+}
+.popover-text{
+    display:flex !important;
+    gap:7% !important;
+    font-weight: 300 !important;
+   
+    height: 33px;
+    align-items: center !important;
+}
+.popover-text:hover{
+    background-color: #31363E;
+    cursor: pointer;
+    box-shadow: 0 0 0 100vmax #31363E;
+    clip-path: inset(0 -100vmax);
+}
+.popover-style > .MuiPaper-root {
+    background-color: rgb(32, 38, 45) !important;
+    margin-top: -30px;
+}
+.popover-content{
+    font-family: Inter !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    width: 11.938rem;
+}
+.divider{
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.poppover-name{
+    font-family: Inter !important;
+    font-size: 14px !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    margin: 0 !important;
+    border-radius: 1rem !important;
+}
+
+.setting-user-image{
+    background: #FFFFFF !important;
+    border-radius: 50% !important;
+    height: 58px !important;
+    width: 58px !important;
+}
+.cancel-profile{
+text-transform: none !important;
+color:white !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    border-radius: 24px !important;
+    margin-right: 4% !important;
+}
+.cancel-profile:hover{
+    background: #20262D !important;
+    border-radius: 24px !important;
+}
+.active-cancel-profile{
+    text-transform: none !important;
+    background-color: #F46662 !important;
+    color:#161C23 !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    font-family: Inter !important;
+     border-radius: 24px !important;
+     margin-right: 4% !important;
+}
+
+.save-profile{
+    text-transform: none !important;
+    color:white !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    font-family: Inter !important;
+    border-radius: 24px !important;
+    margin-right: 4% !important;
+}
+.save-profile:hover{
+    background: #20262D !important;
+    border-radius: 24px !important;
+}
+.active-save-profile{
+    text-transform: none !important;
+    background-color: #F46662 !important;
+    color:#161C23 !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    font-family: Inter !important;
+    border-radius: 24px !important;
+    margin-right: 4% !important;
+}
+
+.setting-text,.setting-text-password{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    font-family: Inter !important;
+    border-color: #20262d !important;
+    width: 90% !important;
+    border-radius: 8px;
+}
+.setting-text-password ::placeholder{
+    margin-top: 10px !important;
+}
+.setting-text-2{
+    background-color: #1A2027 !important;
+}
+.setting-text-2 .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border: none !important;
+  }
+.setting-text-org{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    font-family: Inter !important;
+    border-color: #20262d !important;
+    width: 45% !important;
+    background-color: #1A2027 !important;
+    border-radius: 8px !important;
+    height: 54px !important;
+}
+.chip-active{
+    background-color: #F46662 !important;
+    cursor:pointer !important;
+    color:black !important;
+    font-weight: 600 !important;
+    font-family: Inter !important;
+}
+.project-new{
+   
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.project-icon{
+    display:flex !important;
+    justify-content: center !important;
+}
+.create-new{
+    display:flex !important;
+    justify-content: center !important;
+    background-color: #F46662 !important;
+    color: #161C23 !important;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    border-color: transparent !important;
+
+}
+.project-icons{
+    display:flex !important;
+    justify-content: center !important;
+    padding:3% !important;
+}
+
+/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    font-size: 13px !important;
+    font-family: Inter !important;
+    font-weight: 400 !important;
+} */
+.edit-align{
+margin-right: 4% !important;
+/* padding: 1.5% 1.5% 0.5% 1.5%; */
+}
+.cancel-edite-button{
+    margin: -9px 6px !important;
+}
+.web-edite-vive{
+    margin-right: 10px !important;
+}
+.edit-align:hover{
+    /* background: #20262D !important; */
+    border-radius: 24px !important;
+}
+.password-edit-align{
+    margin-right: 2% !important;
+    width: 40px;
+}
+.password-edit-align:hover{
+    /* background: #20262D !important; */
+    border-radius: 24px !important;
+}
+.setaccount-edite{
+    padding: 10% 1.5% 10% 18% !important;
+}
+.setaccount-edite:hover{
+    background: #20262D !important;
+    border-radius: 24px !important;
+}
+.setting-page-inputs  .MuiInputBase-root {
+    border-radius: 8px !important;
+    width: 322px !important;
+    height: 43px !important;
+    margin-top: 9px !important;
+    color: white !important;
+    padding: 20px !important;
+    font-family: Inter !important;
+    background-color: #20262D !important;
+  }
+  .org-style{
+    padding-top: 2% !important;
+  }
+  .organization-name .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled{
+    -webkit-text-fill-color: #B2B8BD !important;
+  }
+  .org-style  .MuiInputBase-root {
+    border-radius: 8px !important;
+    /* width: 322px !important; */
+    height: 43px !important;
+    margin-top: 9px !important;
+    color: white !important;
+    /* padding: 20px !important; */
+    font-family: Inter !important;
+    /* background-color: #20262D !important; */
+  }
+  .organization-name .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border: none !important;
+  }
+  .delete-dialog-content{
+    font-family: Inter !important;
+    font-size: 13px !important;
+    font-weight: 200 !important;
+    color:#ffffff75 !important;
+}
+
+  .delete-button{
+    background-color:#31363E !important;
+    color:#FFFFFF !important;
+    padding:2% !important;
+    border-radius: 4px !important ;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-family: Inter !important;
+    width:40% !important;
+    }
+    .delete-cancel{
+    background-color: #F46662 !important;
+    color:#000000 !important;
+    padding:2% !important;
+    border-radius: 4px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-family: Inter !important;
+    width:40% !important;
+    }
+    .dialog-action{
+        flex: 0 0 auto !important;
+        display: flex !important;
+        padding: 8px !important;
+        align-items: center !important;
+        justify-content: space-around !important;
+        /* background-color:#31363E !important; */
+        /* background-color: #20262d !important ; */
+        color: #FFFFFF !important;
+        background-color:#161c23!important;
+        font-family: Inter !important;
+    }
+    
+.MuiTabs-flexContainer {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.375rem;
+    position: relative;
+}
+.set-input-fields-1{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.set-input-fields{
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 60% !important;
+}
+.setaccount-input-text{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #FFFFFF !important;
+    font-family: Inter !important;
+}
+.set-name-field{
+    margin-bottom: 5% !important;
+}
+.org-normal-name{
+    margin-top: -2% !important;
+}
+
+.css-a5rdam-MuiGrid-root>.MuiGrid-item {
+    padding-left: initial !important;
+}
+
+/******* Mobile Responsive *******/
+@media(max-width: 460px){
+    .stack-column {
+        overflow-x: scroll !important;
+        justify-content: space-between !important;   
+    }
+    .set-account-sroll  ::-webkit-scrollbar {
+        display: none !important;
+        }
+}
+@media(max-width:480px){
+    .set-input-fields-1{
+        flex-direction: column !important;
+    }
+    .typocast-style{
+        padding: 0% 6% !important;
+    }
+    .set-input-fields{
+        width: 90% !important;
+        flex-direction: column !important;
+    }
+    .setting-text-org{
+        width: 90% !important;
+        height: initial !important;
+    }
+    .web-edite-vive{
+        display: none !important;
+    }
+    .setaccount-edite{
+        padding: 0px !important;
+    }
+    .active-cancel-profile{
+        margin:  20px 5px 7px 0px !important;
+    }
+    .setting-block{
+        padding: 16px !important;
+    }
+    .edit-align{
+        /* padding: 3% 1.5% 0% 0%; */
+        padding: 5% 1.5% 0% 0%;
+        }
+    .password-edit-align{
+        padding: 3% 1.5% 0% 0%;
+    }
+    .ac-grid-container .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+        height: 48px  !important;
+    }
+    .cancel-edite-button{
+        margin: 9px 0px  0px 0px !important;
+    }
+    .set-confirm-pass{
+        margin-top: 2.5%  !important;
+    }
+    .org-style  .MuiInputBase-root {
+        margin-top: initial !important;
+    }
+    /* fonts */
+    .stack-column{
+        font-size: 12px !important;
+    }
+    .setaccount-input-text{
+        font-size: 14px !important;
+    }
+
+}
+@media(min-width:480px){
+    .mobile-edite-view{
+        display: none !important;
+    }
+}
+
+@media(max-width:750px){
+    .set-input-fields{
+        width: 70% !important;
+    }
+    .css-57ri8o-MuiGrid-root{
+        /* background-color: #20262d  !important; */
+        border-radius: 8px !important;
+    }
+}
+@media (max-width: 899px) {
+    /* .css-a5rdam-MuiGrid-root>.MuiGrid-item {
+        padding-left: initial !important;
+    } */
+    .stack-column {
+        width: initial !important;
+        display: flex !important;
+        justify-content: space-evenly;
+        flex-direction: row !important;
+        align-items: baseline !important;
+        background-color: #161C23 !important;
+        border-right: initial !important;
+        margin-right: initial !important;
+    } 
+    .ac-grid-container .css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+     min-width: 1px  !important;
+     margin-top: 0.5rem;
+     padding: 4px 6px !important;
+   }
+
+.pass-input .MuiInputBase-input::placeholder {
+padding-top: 10px !important;
+}
+}

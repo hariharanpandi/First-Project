@@ -1,0 +1,211 @@
+.user-tabs-block{
+    padding: 3.75rem 3.5rem 7.5rem 3rem;;
+}
+.user-account-nav{
+  padding-bottom: 5.5rem;
+}
+.edite-user-image{
+  min-height: 100%;
+    background-color:  #161C23;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  .router-back-arrow{
+    display: inline-flex;
+    cursor: pointer;  
+    gap: 0.625rem;
+    font-size: 0.875rem;
+    align-items: center;
+    flex-wrap: nowrap;
+    line-height: 1.059rem;
+  }
+  .router-back-arrow > div {
+    display: contents;
+  }
+  .user-router-heading{
+    text-wrap: nowrap;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 600px) {
+    .edite-user-image {
+       height: auto;
+    }
+  }
+  .save-button{
+    background-color: #F46662 !important;
+    color: #000000 !important;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem !important;
+    border-radius: 4px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-family: Inter !important;
+    margin-top: 3rem !important;
+    width: 2.063rem !important;
+    text-transform: capitalize !important;
+  }
+
+.user-image-responsive {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  left: calc(24% - 1rem);
+  zoom: 0;
+  scale: 1.3;
+}
+
+.MuiTableRow-root th:first-child {
+  border-top-left-radius: 0.5rem;
+}
+
+.MuiTableRow-root th:last-child {
+  border-top-right-radius: 0.5rem;
+}
+
+.MuiTableRow-root:last-child td:first-child {
+  border-bottom-left-radius: 0.5rem;
+}
+
+.MuiTableRow-root td.application-first-td:first-child {
+  padding-left: 2.5rem;
+}
+
+.MuiTableRow-root td.workload-first-td:first-child {
+  padding-left: 5.688rem;
+}
+
+.MuiTableRow-root td:not(:first-child) .Mui-checked {
+  background-color: #fff;
+  width: 0.75rem;
+  height: 0.9rem;
+  border-radius: 0;
+  padding: 0;
+}
+
+table.table-container tbody tr td:not(:first-child) {
+  padding-left: 27px !important;
+}
+
+/* Apply border-radius to the last <td> element of the last <tr> */
+.MuiTableRow-root:last-child td:last-child {
+  border-bottom-right-radius: 0.5rem;
+}
+
+.css-1gsv261 {
+  padding-bottom: 3rem;
+}
+
+.css-19midj6 {
+  padding: 0 !important;
+}
+
+table.table-container thead tr th{
+  padding: 1rem 1.5rem;
+  color: #B2B8BD;
+  font-size: 0.75rem;
+  line-height: 0.908rem;
+  font-weight: 700;
+  border-bottom: 1px solid #202938;
+}
+
+table.table-container thead{
+  background: #202938;
+  text-transform: uppercase;
+}
+
+table.table-container tbody tr td {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.059rem;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  padding: 0.875rem 1.5rem;
+  color: rgba(0, 0, 0, 0.87);
+  border-bottom: 1px solid #202938;
+  color: #fff  ;
+  background: #161C23;
+  padding: 1rem 1rem;
+  line-height: 16.94px;
+}
+
+table.table-container tbody tr:last-child td {
+  border-bottom: none;
+}
+
+table.table-container tbody tr td > span {
+  padding: 0;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+  display: none;
+}
+
+.project-name-list {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  position: relative;
+}
+
+.application-icon1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background: #FDA218;
+  box-shadow: 0px 3.499999761581421px 5.5px 0px rgba(0, 0, 0, 0.02);
+}
+
+.application-icon2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background: #4E46B4;
+  box-shadow: 0px 3.499999761581421px 5.5px 0px rgba(0, 0, 0, 0.02);
+}
+
+.application-arrow-icon-position {
+  position: relative;
+  top: 2.5px;
+}
+
+.arrow-right-icon {
+  transition: all 0.3s ease-out;
+}
+
+.arrow-down-icon {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-out;
+}
+
+.custom-cursor {
+  cursor: pointer;
+}
+
+.no-data-found {
+  text-align: center !important;
+}
+
+/* ** Mobile responsive ** */
+@media(max-width:600px){
+  .user-image-responsive {
+    display: none !important;
+  }
+  .user-tabs-block{
+    padding: 3.75rem 1.5rem 7.5rem 1.5rem !important;
+}
+.css-1gsv261 {
+  padding-bottom: 2rem !important;
+}
+.user-account-nav{
+  padding-bottom: 3.5rem;
+}
+table.table-container thead tr th{
+  font-size: 0.60rem !important;
+}
+table.table-container tbody tr td {
+  font-size: 0.775rem !important;
+}
+}

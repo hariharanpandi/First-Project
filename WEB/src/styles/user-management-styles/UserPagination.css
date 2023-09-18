@@ -1,0 +1,46 @@
+.pagination-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: "0% 4%";
+  border-radius: 3px !important;
+}
+.right-side-pagination {
+  display: flex;
+}
+.arrow-icon-name {
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  background: #161c23;
+  color: white;
+  width: 68px;
+  height: 29px;
+  font-size: 14px;
+}
+.next-name {
+  margin-left: 0.5rem;
+}
+.back-name {
+  margin-right: 0.5rem;
+}
+/* //////////////////// For 123 numbers ///////////////////*/
+.centre-123-number {
+  display: flex;
+}
+.centre-123-number-alignment {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0rem 0.5rem;
+  color: #ffffff;
+  width: 7px;
+  height: 29px;
+  font-size: 14px;
+}
+.pagination-block{
+  padding-left: 2% !important;
+  font-size: 13px !important;
+  font-family: Inter !important;
+  font-weight: 500 !important;
+}

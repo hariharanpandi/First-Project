@@ -1,0 +1,318 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: left;
+  font-family: Inter !important;
+}
+
+@media (min-width: 768px) {
+  .form-group {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: left;
+    font-family: Inter !important;
+  }
+
+  .form-group label {
+    width: 150px;
+    padding-top: 1%;
+    justify-content: center;
+    font-family: Inter !important;
+  }
+}
+.app-description {
+  display: flex;
+  height: 80px;
+  resize: vertical;
+  background-color: #20262d !important;
+}
+.app-create-button {
+  background: #f46662 !important;
+  display: flex !important;
+  width: 100% !important;
+  height: 56px;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  color: #0d1116 !important;
+  text-transform: none !important;
+  margin-top: 8% !important;
+}
+.error-message {
+  color: #f46662 !important;
+  font-size: 13px;
+}
+.upload-image {
+  display: flex !important;
+}
+.image-source {
+  height: 56px !important;
+  width: 56px !important;
+  border-radius: 8px !important;
+  object-fit: cover;
+}
+.upload-text {
+  margin-top: 3%;
+}
+.image-label {
+  margin-top: 2%;
+}
+.image-view {
+  display: flex;
+  gap: 1%;
+}
+.upload-label {
+  height: 37px !important;
+  width: 57px !important;
+  font-size: 12px;
+  display: flex !important;
+  justify-content: center !important;
+  padding: 3% !important;
+  background-color: #20262d !important;
+  border-radius: 5px !important;
+  margin-top: 8px;
+  margin-left: 15px !important;
+  cursor: pointer;
+}
+.remove-btn {
+  height: 37px !important;
+  width: 62px !important;
+  font-size: 12px;
+  display: flex !important;
+  justify-content: center !important;
+  padding: 3% !important;
+  background-color: #20262d !important;
+  border-radius: 5px !important;
+  margin-top: 8px;
+  margin-left: 5px !important;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.app-name {
+  display: flex;
+  background-color: #20262d !important;
+  height: 4rem !important;
+}
+.create-new-app {
+  display: flex !important;
+  width: 26.875rem !important;
+  height: auto !important;
+  background-color: #20262d !important;
+}
+/* For All Prime React Model Stable */
+.p-dialog{
+  margin: none !important;
+  position: none !important;
+  left: auto !important;
+  top: auto !important;
+}
+/* For All Prime React Model cursor initial */
+.p-dialog-draggable .p-dialog-header {
+  cursor: initial !important;
+}
+.p-button {
+  border: none !important;
+}
+
+.applicationDisplay-loader {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.applicationDisplay-loader .loader-content {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 5px solid #161c23;
+  border-top: 5px solid #ffffff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* WorkLoad */
+
+.workload-info-container {
+  max-height: 500px;
+  min-height: 500px;
+  margin: 2.5rem 2.5rem 2.5rem 2rem;
+  overflow: auto;
+}
+
+.workload-info-heading {
+  width: 100% !important;
+  padding-bottom: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #0d1116;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.workload-header-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.workload-icons {
+  width: 35px !important;
+  /* background-color: red; */
+}
+
+/* .workload-sitemapline {
+  width: 88%;
+  float: left;
+} */
+
+.workload-threeDotVertical {
+  background-color: none;
+  transition: 0.5s;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+.workload-threeDotVertical:hover {
+  background-color: #0d1116;
+  transition: 0.5s;
+}
+
+.workload-info-data {
+  width: 100% !important;
+  margin-top: 20px;
+}
+
+.workload-name {
+  margin-top: 100px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.workload-createdAt {
+  font-size: 13px;
+  width: 100%;
+  font-style: italic;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.workload-pagination-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+}
+
+.loader-content {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 5px solid #161c23;
+  border-top: 5px solid #ffffff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.workload-poppover .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  background-color: rgb(32, 38, 45) !important;
+  border-radius: 9px !important;
+  box-shadow: none !important;
+  /* position: absolute; */
+  margin-top: 10px;
+}
+
+.edit-project-poppover > .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  background-color: rgb(32, 38, 45) !important;
+  border-radius: 9px !important;
+  box-shadow: none !important;
+  position: absolute;
+  left: 550px !important;
+}
+
+.edit-app-poppover-landing > .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  background-color: rgb(32, 38, 45) !important;
+  border-radius: 9px !important;
+  box-shadow: none !important;
+  position: absolute;
+}
+.edit-app-poppover > .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  background-color: rgb(32, 38, 45) !important;
+  border-radius: 9px !important;
+  box-shadow: none !important;
+  position: absolute;
+  left: 13.7rem !important;
+}
+
+.topbar-create-project-poppover > .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  background-color: rgb(32, 38, 45) !important;
+  border-radius: 9px !important;
+  box-shadow: none !important;
+  margin: 0.5rem -0.6rem;
+}
+
+.sidebar-bottom-grid {
+  width: -webkit-fill-available !important;
+}
+/* Firfox browser specific Style */
+.bla .css-hagxv6-MuiGrid-root{
+  width: 100%;
+}
+
+.sidebar_user_profile_img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.sidebar_user_profile_img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.sidebar_user_profile_img_empty {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.sidebar_user_profile_img_empty img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #ffffff !important;
+  object-fit: none;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .workload-info-container {
+    margin: 1rem 1rem 1rem 1rem;
+  }
+  .workload-info-heading {
+    padding-right: 1rem;
+  }
+}
+
+.app-image {
+  border-radius: 4px;
+}

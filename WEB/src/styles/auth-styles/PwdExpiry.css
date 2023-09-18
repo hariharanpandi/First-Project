@@ -1,0 +1,32 @@
+.pwd-expiry{
+    display: flex !important;
+    height:100vh !important;
+    align-items: center !important;
+ 
+    justify-content: center !important;
+}
+.reset-text1{
+    font-family: 'Inter' !important;
+    font-weight: 700 !important;
+    font-size: 28px !important;
+    text-align: left !important;
+    padding-bottom: 2% !important;
+
+}
+.reset-text2{
+    color: #FFFFFFBD;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+   
+
+}
+.reset-text3{
+    color: #FFFFFFBD;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+    
+    
+
+}

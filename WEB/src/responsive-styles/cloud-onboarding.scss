@@ -1,0 +1,108 @@
+@media (max-width: 61.875rem) and (min-width: 40rem),
+(max-width: 40rem) {
+    body {
+        .cloud {
+            .cloud-contant {
+                width: 100%;
+                padding: 3.5rem 1rem 0 1rem;
+
+                nav {
+                    padding-bottom: 3.6rem;
+                }
+
+                p {
+                    padding-bottom: 2.5rem;
+                }
+
+                &-card {
+                    --grid-size: 9.75rem;
+
+                    & div {
+                        height: 10.0625rem;
+                        gap: 0.5rem;
+                    }
+                }
+
+                form {
+                    & .section-1 {
+                        &>div {
+                            flex: auto;
+                            max-width: 23.875rem;
+
+                            & .p-inputtext {
+                                width: 100%;
+                                max-width: 23.875rem;
+                            }
+                        }
+
+                        & div.p-multiselect {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            &-form {
+                & .section-1 {
+                    >div {
+                        width: 100%;
+
+                        & div.p-dropdown {
+                            width: 100% !important;
+                            max-width: 23.875rem;
+                        }
+                    }
+                }
+            }
+
+            .cloud-img {
+                display: none;
+            }
+        }
+
+        .cloud-account {
+
+            &-contant {
+                flex: auto;
+                padding: 3.5rem 1rem 0 1rem;
+
+                nav {
+                    padding-bottom: 3.6rem;
+                }
+
+                p {
+                    padding-bottom: 2.5rem;
+                }
+
+                &-view {
+                    width: 100%;
+                    max-width: 23.875rem;
+
+                    form>div {
+                        width: 100%;
+
+                        & input.p-inputtext {
+                            width: auto;
+                            max-width: 23.875rem;
+                        }
+                    }
+                }
+            }
+
+            .cloud-account-img {
+                display: none;
+            }
+        }
+
+        .cloud-account-view {
+            &-contant {
+                width: 100%;
+                padding: 3.5rem 1rem 0 1rem;
+            }
+
+            &-img {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.name-with-avatar {
+  display: flex !important;
+  align-items: center;
+}
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.chip-label {
+  color: rgba(0, 186, 136, 1) !important;
+  font-weight: 700 !important;
+  font-size: 75% !important;
+  line-height: 15px !important;
+  background: rgba(0, 186, 136, 0.16) !important;
+  border-radius: 28px !important;
+  padding: 4px, 8px, 4px, 8px !important;
+}
+.person-typography {
+  /* width: 114% !important; */
+  display: flex !important;
+  align-items: baseline;
+}
+.calori-typography {
+  margin-left: 7px !important;
+}
+
+.button-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #161c23 !important;
+  width: 100% !important;
+  padding: 1%;
+}
+
+.create-button-inside {
+  background: #f46662 !important;
+  color: rgba(22, 28, 35, 1) !important;
+  align-items: flex-end;
+  display: flex;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 106.25% !important;
+  border-radius: 4px !important;
+}
+.input-placeholder-color > .MuiInputBase-root {
+  background: #20262d;
+  color: rgba(178, 184, 189, 1) !important;
+  border-radius: 8px !important;
+  padding: 8px !important;
+  gap: 10px !important;
+  width: 232px !important;
+  height: 32px !important;
+  font-size: 87.5% !important;
+}
+.MuiInput-underline:after {
+  border-bottom: none !important;
+}
+.MuiInput-underline:before {
+  border-bottom: none !important;
+}
+.arrow-up {
+  margin-bottom: -8.7px;
+}
+.arrow-down {
+  margin-top: -8.7px;
+}
+
+/*///////////For pagination 1, 2, 3//////////*/
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color: rgba(244, 102, 98, 1) !important;
+}
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root {
+  color: rgba(255, 255, 255, 1) !important;
+  border: none !important;
+  background-color: rgba(22, 28, 35, 1) !important;
+  border-radius: 4px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+.css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon {
+  padding: 4px 20px;
+}
+
+/*/////////////TablePagination//////// */
+.css-levciy-MuiTablePagination-displayedRows {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+}
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar
+  .MuiTablePagination-actions {
+  display: none !important;
+}
+.row-time {
+  font-size: 75% !important;
+  color: rgba(178, 184, 189, 1);
+}
+
+/* .table-edite-icon {
+  display: flex;
+  justify-content: space-between;
+} */
+/* //////////For hidden icon///////////*/
+/* .view-column-icon {
+  margin-left: -45px;
+  margin-top: 14px;
+  color: rgba(178, 184, 189, 1);
+  position: relative;
+} */
+/* .view-column-icon{
+    position: absolute;
+    background-color: yellow !important;
+    margin-left: 200px;
+    margin-top: 100px;
+  } */
+
+/* //////////////////// */
+/* .column-hiden-popever {
+  top: 30px !important;
+  left: -45px !important;
+} */
+
+/*both Edite and hide Popover */
+.MuiPopover-paper {
+  background: #20262d !important;
+}
+
+.MuiPopover-paper > ul {
+  background: #20262d !important;
+  list-style-type: none;
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  padding: 16px 0px;
+}
+.MuiPopover-paper > ul > li {
+  color: white;
+  font-weight: 500 !important;
+  padding: 0px 20px !important;
+  gap: 16px;
+  width: 191px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+}
+.MuiPopover-paper > ul li:hover {
+  background-color: rgba(49, 54, 62, 1);
+  display: flex;
+  align-items: center;
+}
+
+/* /////////////////CHECKBOX Customization//////////// */
+
+.header-hide-input[type="checkbox"] {
+  /* Hide the default checkbox */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 16px;
+  height: 16px;
+  outline: none;
+  cursor: pointer;
+  background-color: rgba(32, 38, 45, 1);
+  width: 12px;
+  height: 12px;
+}
+
+/* Change the color of the custom checkbox */
+.header-hide-input[type="checkbox"]:checked {
+  background-color: rgba(244, 102, 98, 1);
+  border-color: rgba(244, 102, 98, 1);
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.header-hide-input[type="checkbox"]:checked::after {
+  content: url(../../assets/icons/CheckBoxticking.svg);
+  display: inline-block;
+  position: relative;
+  top: -12px;
+  left: 2px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* /////////Jun-6 */
+.table-head {
+  background-color: red !important;
+}
+
+/* Filter Feature */
+
+.filter-gate-icon {
+  width: 20px !important;
+  cursor: pointer;
+}
+
+.filter-popover > .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  background-color: rgb(32, 38, 45) !important;
+  border-radius: 9px !important;
+  box-shadow: none !important;
+  padding: 15px 0px 10px 0px !important;
+}
+
+.filter-field {
+  width: 100%;
+  height: 33px;
+  gap: 4px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 6px 16px 6px 16px !important;
+}
+
+.filter-field-lock {
+  width: 100%;
+  height: 33px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 6px 16px 6px 16px !important;
+}
+
+.field-hover {
+  transition: 0.3s;
+}
+
+.field-hover:hover{
+  background-color: #31363e;
+  transition: 0.3s;
+}
+
+.lock-icon {
+  width: 33px !important;
+  margin-left: 16px;
+  margin-right: 12px;
+  gap: 0px;
+}

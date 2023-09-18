@@ -1,0 +1,41 @@
+  .nav-over-icon{
+    margin-left: 15.5rem;
+    margin-top: 1.125rem;
+    position: fixed;
+    z-index: 150 !important;
+    cursor: pointer;
+    transition: all .5s ease-out;
+    
+  }
+  .nav-over-icon-after{
+    display: flex !important;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    position: fixed;
+    z-index: 150 !important;
+    rotate: 180deg !important;
+    cursor: pointer;
+    transition: all .5s ease-out;
+  }
+
+.header-tenant-logo {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding: 1.5rem 1rem;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.header-container {
+  border-right: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.header-tenant-name {
+  width: 8.97175rem;
+  height: 2.01775rem;
+}
+
+.header-search-bar {
+  padding: 0 1rem 1rem 1rem !important;
+}
