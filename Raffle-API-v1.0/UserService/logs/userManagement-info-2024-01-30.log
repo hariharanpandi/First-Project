@@ -1,0 +1,114 @@
+2024-01-30T02:06:52.281Z - [ERROR] - MongoDB disconnected. Reconnecting...
+2024-01-30T02:08:14.320Z - [WARN ] - Reconnected to MongoDB
+2024-01-30T02:10:28.329Z - [INFO ] - Controller - Register user function initiated
+2024-01-30T02:10:30.558Z - [INFO ] - Controller - Register user function completed
+2024-01-30T02:23:53.802Z - [INFO ] - Server is now running on port 5000
+2024-01-30T02:23:56.802Z - [INFO ] - Connected to MongoDB
+2024-01-30T02:23:57.630Z - [INFO ] - Controller - Register user function initiated
+2024-01-30T02:23:57.736Z - [ERROR] - This user is already registered. Please choose a different email or sign in.
+2024-01-30T02:23:57.737Z - [ERROR] - Controller - Register user function failed.
+2024-01-30T02:24:06.425Z - [INFO ] - Controller - Register user function initiated
+2024-01-30T02:24:06.841Z - [INFO ] - Controller - Register user function completed
+2024-01-30T02:25:30.343Z - [INFO ] - Controller - Email verification function initiated
+2024-01-30T02:25:30.437Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:26:10.249Z - [INFO ] - Server is now running on port 5000
+2024-01-30T02:26:10.806Z - [INFO ] - Controller - Email verification function initiated
+2024-01-30T02:26:12.142Z - [INFO ] - Connected to MongoDB
+2024-01-30T02:26:12.737Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:26:21.477Z - [INFO ] - Controller - Email verification function initiated
+2024-01-30T02:26:21.552Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:27:55.386Z - [INFO ] - Server is now running on port 5000
+2024-01-30T02:27:56.701Z - [INFO ] - Connected to MongoDB
+2024-01-30T02:27:58.757Z - [INFO ] - Controller - Email verification function initiated
+2024-01-30T02:27:58.968Z - [INFO ] - Controller - Email verification function completed
+2024-01-30T02:29:03.216Z - [INFO ] - Server is now running on port 5000
+2024-01-30T02:29:05.212Z - [INFO ] - Controller - Email verification function initiated
+2024-01-30T02:29:05.404Z - [INFO ] - Connected to MongoDB
+2024-01-30T02:29:06.001Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:29:07.339Z - [INFO ] - Controller - Email verification function initiated
+2024-01-30T02:29:07.431Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:29:25.085Z - [INFO ] - Controller - Email verification function initiated
+2024-01-30T02:29:25.170Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:29:29.877Z - [INFO ] - Controller - Email verification function initiated
+2024-01-30T02:29:30.074Z - [INFO ] - Controller - Email verification function completed
+2024-01-30T02:29:42.212Z - [INFO ] - Controller - Email verification function initiated
+2024-01-30T02:29:42.301Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:39:04.230Z - [INFO ] - Server is now running on port 5000
+2024-01-30T02:39:06.952Z - [INFO ] - Connected to MongoDB
+2024-01-30T02:41:04.359Z - [INFO ] - Server is now running on port 5000
+2024-01-30T02:41:05.829Z - [INFO ] - Connected to MongoDB
+2024-01-30T02:45:14.470Z - [INFO ] - Server is now running on port 5000
+2024-01-30T02:45:16.718Z - [INFO ] - Connected to MongoDB
+2024-01-30T02:46:25.760Z - [INFO ] - Controller - User login function initiated
+2024-01-30T02:46:26.142Z - [INFO ] - Controller - User login function completed.
+2024-01-30T02:46:52.897Z - [INFO ] - Controller - User login function initiated
+2024-01-30T02:46:53.187Z - [ERROR] - Controller - User login function failed.
+2024-01-30T02:47:00.124Z - [INFO ] - Controller - User login function initiated
+2024-01-30T02:47:00.486Z - [INFO ] - Controller - User login function completed.
+2024-01-30T02:47:41.432Z - [INFO ] - Controller - Register user function initiated
+2024-01-30T02:47:41.905Z - [INFO ] - Controller - Register user function completed
+2024-01-30T02:48:10.942Z - [INFO ] - Controller - User login function initiated
+2024-01-30T02:48:11.028Z - [ERROR] - Controller - User login function failed.
+2024-01-30T02:51:37.559Z - [INFO ] - Server is now running on port 5000
+2024-01-30T02:51:42.182Z - [INFO ] - Server is now running on port 5000
+2024-01-30T02:51:44.390Z - [INFO ] - Connected to MongoDB
+2024-01-30T02:52:35.163Z - [INFO ] - Server is now running on port 5000
+2024-01-30T02:52:36.121Z - [INFO ] - Connected to MongoDB
+2024-01-30T02:54:31.165Z - [INFO ] - Server is now running on port 5000
+2024-01-30T02:54:34.625Z - [INFO ] - Connected to MongoDB
+2024-01-30T02:54:39.229Z - [INFO ] - Server is now running on port 5000
+2024-01-30T02:54:40.805Z - [INFO ] - Connected to MongoDB
+2024-01-30T02:54:50.941Z - [INFO ] - Controller - User login function initiated
+2024-01-30T02:54:50.944Z - [INFO ] - User validation failed Password must contain at least one lowercase letter, one uppercase letter, one digit, and one special character
+2024-01-30T02:55:16.661Z - [INFO ] - Controller - User login function initiated
+2024-01-30T02:55:16.663Z - [INFO ] - User validation failed "Password" is required
+2024-01-30T02:55:24.255Z - [INFO ] - Controller - User login function initiated
+2024-01-30T02:55:24.347Z - [ERROR] - Controller - User login function failed.
+2024-01-30T03:18:08.042Z - [INFO ] - Server is now running on port 5000
+2024-01-30T03:18:11.111Z - [INFO ] - Connected to MongoDB
+2024-01-30T03:18:50.006Z - [INFO ] - Controller - Register user function initiated
+2024-01-30T03:18:50.111Z - [ERROR] - This user is already registered. Please choose a different email or sign in.
+2024-01-30T03:18:50.113Z - [ERROR] - Controller - Register user function failed.
+2024-01-30T03:19:08.794Z - [INFO ] - Controller - Register user function initiated
+2024-01-30T03:19:08.875Z - [ERROR] - This user is already registered. Please choose a different email or sign in.
+2024-01-30T03:19:08.876Z - [ERROR] - Controller - Register user function failed.
+2024-01-30T03:19:40.681Z - [INFO ] - Server is now running on port 5000
+2024-01-30T03:19:43.149Z - [INFO ] - Connected to MongoDB
+2024-01-30T03:19:46.253Z - [INFO ] - Controller - Register user function initiated
+2024-01-30T03:19:46.351Z - [ERROR] - This user is already registered. Please choose a different email or sign in.
+2024-01-30T03:19:46.352Z - [ERROR] - Controller - Register user function failed.
+2024-01-30T03:20:39.022Z - [INFO ] - Server is now running on port 5000
+2024-01-30T03:20:41.757Z - [INFO ] - Connected to MongoDB
+2024-01-30T03:21:02.255Z - [INFO ] - Server is now running on port 5000
+2024-01-30T03:21:04.233Z - [INFO ] - Connected to MongoDB
+2024-01-30T03:21:04.927Z - [INFO ] - Controller - Register user function initiated
+2024-01-30T03:21:05.023Z - [ERROR] - This user is already registered. Please choose a different email or sign in.
+2024-01-30T03:21:05.024Z - [ERROR] - Controller - Register user function failed.
+2024-01-30T03:21:34.364Z - [INFO ] - Server is now running on port 5000
+2024-01-30T03:21:39.187Z - [INFO ] - Server is now running on port 5000
+2024-01-30T03:21:40.111Z - [INFO ] - Connected to MongoDB
+2024-01-30T03:21:42.791Z - [INFO ] - Controller - Register user function initiated
+2024-01-30T03:21:42.895Z - [ERROR] - This user is already registered. Please choose a different email or sign in.
+2024-01-30T03:21:42.897Z - [ERROR] - Controller - Register user function failed.
+2024-01-30T03:22:38.866Z - [INFO ] - Server is now running on port 5000
+2024-01-30T03:22:41.124Z - [INFO ] - Connected to MongoDB
+2024-01-30T03:22:54.229Z - [INFO ] - Server is now running on port 5000
+2024-01-30T03:22:57.478Z - [INFO ] - Connected to MongoDB
+2024-01-30T03:23:24.228Z - [INFO ] - Server is now running on port 5000
+2024-01-30T03:23:28.859Z - [INFO ] - Connected to MongoDB
+2024-01-30T03:24:03.017Z - [INFO ] - Server is now running on port 5000
+2024-01-30T03:24:04.478Z - [INFO ] - Connected to MongoDB
+2024-01-30T03:38:12.606Z - [INFO ] - Server is now running on port 5000
+2024-01-30T03:38:15.030Z - [INFO ] - Connected to MongoDB
+2024-01-30T03:40:35.142Z - [INFO ] - Server is now running on port 5000
+2024-01-30T03:40:37.555Z - [INFO ] - Connected to MongoDB
+2024-01-30T04:45:15.236Z - [ERROR] - MongoDB disconnected. Reconnecting...
+2024-01-30T04:45:26.150Z - [WARN ] - Reconnected to MongoDB
+2024-01-30T05:23:41.398Z - [INFO ] - Server is now running on port 5000
+2024-01-30T05:23:43.016Z - [INFO ] - Connected to MongoDB
+2024-01-30T05:49:51.664Z - [INFO ] - Server is now running on port 5000
+2024-01-30T05:49:54.691Z - [INFO ] - Connected to MongoDB
+2024-01-30T09:31:47.380Z - [INFO ] - Server is now running on port 5000
+2024-01-30T09:31:53.384Z - [INFO ] - Connected to MongoDB
+2024-01-30T10:05:37.977Z - [INFO ] - Server is now running on port 5000
+2024-01-30T10:05:39.815Z - [INFO ] - Connected to MongoDB

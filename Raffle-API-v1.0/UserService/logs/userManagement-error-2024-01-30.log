@@ -1,0 +1,24 @@
+2024-01-30T02:06:52.265Z - [ERROR] - MongoDB disconnected. Reconnecting...
+2024-01-30T02:23:57.736Z - [ERROR] - This user is already registered. Please choose a different email or sign in.
+2024-01-30T02:23:57.737Z - [ERROR] - Controller - Register user function failed.
+2024-01-30T02:25:30.437Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:26:12.736Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:26:21.551Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:29:06.000Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:29:07.430Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:29:25.170Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:29:42.300Z - [ERROR] - Controller - Email verification function failed.
+2024-01-30T02:46:53.187Z - [ERROR] - Controller - User login function failed.
+2024-01-30T02:48:11.028Z - [ERROR] - Controller - User login function failed.
+2024-01-30T02:55:24.347Z - [ERROR] - Controller - User login function failed.
+2024-01-30T03:18:50.111Z - [ERROR] - This user is already registered. Please choose a different email or sign in.
+2024-01-30T03:18:50.113Z - [ERROR] - Controller - Register user function failed.
+2024-01-30T03:19:08.875Z - [ERROR] - This user is already registered. Please choose a different email or sign in.
+2024-01-30T03:19:08.876Z - [ERROR] - Controller - Register user function failed.
+2024-01-30T03:19:46.351Z - [ERROR] - This user is already registered. Please choose a different email or sign in.
+2024-01-30T03:19:46.352Z - [ERROR] - Controller - Register user function failed.
+2024-01-30T03:21:05.023Z - [ERROR] - This user is already registered. Please choose a different email or sign in.
+2024-01-30T03:21:05.024Z - [ERROR] - Controller - Register user function failed.
+2024-01-30T03:21:42.895Z - [ERROR] - This user is already registered. Please choose a different email or sign in.
+2024-01-30T03:21:42.896Z - [ERROR] - Controller - Register user function failed.
+2024-01-30T04:45:15.235Z - [ERROR] - MongoDB disconnected. Reconnecting...

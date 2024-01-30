@@ -17,7 +17,7 @@ export default class AuthGuard {
       const authHeader: string | undefined = req.headers.authorization;
       if (!authHeader) {
         logger.error(appConstant.LOGGER_MESSAGE.MISSING_TOKEN);
-        res.status(400).send(appConstant.MESSAGES.EMPTY_TOKEN);
+        res.status(401).send(appConstant.MESSAGES.EMPTY_TOKEN);
         return;
       }
       if (authHeader && authHeader.startsWith(appConstant.TOKEN.PERFIX_TOKEN)) {
@@ -41,7 +41,7 @@ export default class AuthGuard {
         }
       } else {
         logger.error(appConstant.LOGGER_MESSAGE.INVALID_FORMAT);
-        res.status(400).send(appConstant.MESSAGES.INVALID_TOKEN);
+        res.status(401).send(appConstant.MESSAGES.INVALID_TOKEN);
       }
     } catch (error: any) {
       logger.info(appConstant.LOGGER_MESSAGE.VALIDATION_FAILED);
